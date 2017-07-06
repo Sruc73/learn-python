@@ -17,7 +17,10 @@ words = ['jacqueline',
 # multiply per 2 all numbers
 double_numbres = [n * 2 for n in numbers]
 print(double_numbres)
+
 # convert all numbers into string
+numbers_to_string = [str(n) for n in numbers]
+print(numbers_to_string)
 
 # keep words that does not contain blank spaces.
 
