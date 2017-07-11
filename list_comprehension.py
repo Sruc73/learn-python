@@ -15,7 +15,7 @@ words = ['jacqueline',
         'bois foncé']
 
 # multiply per 2 all numbers
-double_numbres = [n * 2 for n in numbers]
+double_numbers = [n * 2 for n in numbers]
 # print(double_numbres)
 
 # convert all numbers into string
@@ -30,6 +30,12 @@ words_without_blank = [w for w in words if not " " in w]
 # Use a conditional structure!
 even_numbers = [n for n in numbers if n % 2 == 0]
 # print(even_numbers)
+
+double_numbers = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
+#create a new list from double_numbers with odd numbers only
+# should look like : [1, 3, 5, 7, 9]
+odd_numbers = [n for n in double_numbers if n % 1 = 0]
+print(odd_numbers)
 
 # create a new list with numbers and words as tuples.
 # should look like: [('jacqueline', 1), ('robert', 4)]
